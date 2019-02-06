@@ -16,9 +16,9 @@ def home():
     """Renders the home page."""
     return render_template(
         'index.html',
-        title='Home Page',
+        title='Блог',
         year=datetime.now().year,
-        message='Home Page'
+        message='Блог'
     )
 
 @app.route('/contact')
@@ -26,9 +26,9 @@ def contact():
     """Renders the contact page."""
     return render_template(
         'contact.html',
-        title='Contact',
+        title='Контакты',
         year=datetime.now().year,
-        message='Your contact page.'
+        message='Если Вы заинтересованы, обращайтесь:'
     )
 
 @app.route('/about')
@@ -36,9 +36,9 @@ def about():
     """Renders the about page."""
     return render_template(
         'about.html',
-        title='About',
+        title='Резюме',
         year=datetime.now().year,
-        message='Your application description page.'
+        message='Обо мне'
     )
 
 if (__name__ =="__main__"):
