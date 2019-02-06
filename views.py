@@ -4,7 +4,6 @@ Routes and views for the flask application.
 
 from datetime import datetime
 from flask import render_template
-from TstSite import app
 from flask import Flask
 
 app = Flask(__name__)
