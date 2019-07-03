@@ -1,18 +1,28 @@
-{% extends "layout.html" %}
+п»ї{% extends "layout.html" %}
 
 {% block content %}
 
-<h2>{{ title }}.</h2>
-<h3>{{ message }}</h3>
+<h2>{{ title }}</h2>
 
 <address>
-    Звоните<br />
-    <strong>Моб.:</strong> 89213182731
-    Также пишите на почту<br />
+    <p><strong>Phone:</strong> +79213182731</p>
 </address>
 
 <address>
-    <strong>E-mail:</strong>   <a href="mailto:dontpanic.spb@gmail.com">dontpanic.spb@gmail.com</a><br />
+    <p><strong>E-mail:</strong>   <a href="mailto:dontpanic.spb@gmail.com">dontpanic.spb@gmail.com</a><br /></p>
+</address>
+
+<address>
+    <strong>Job resume (hh.ru)</strong>
+    <p>
+        <a href="https://spb.hh.ru/resume/df036c94ff05f36e3b0039ed1f533558674265">Python Junior</a><br />
+        <a href="https://spb.hh.ru/resume/7b16b24aff05fe69ad0039ed1f68576b693356">Junior QA enjineer</a><br />
+    </p>
+</address>
+
+<address>
+    <strong>Social networks</strong>
+    <p> <a href="https://vk.com/d0ntpanic">vk_d0ntpanic</a><br /></p>
 </address>
 
 {% endblock %}
